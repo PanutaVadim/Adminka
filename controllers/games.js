@@ -1,4 +1,4 @@
-const { writeData } = require("../utils/data"); // Чтение и запись данных в JSON-файл
+const { writeData } = require("../utils/data");  // Чтение и запись данных в JSON-файл
 
 const addGameController = async (req, res) => {
     // Проверяем, есть ли уже в списке игра с таким же названием
